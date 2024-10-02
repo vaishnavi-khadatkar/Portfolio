@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio Template</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:300,400,700"rel="stylesheet'>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="menu-responsive">
+      <nav>
+          <ul>
+              <li><a class="scroll" href="#about">About</a></li>
+              <li><a class="scroll" href="#skills">Skills</a></li>
+              <li><a class="scroll" href="#portfolio">Portfolio</a></li>
+              <li><a class="scroll" href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+  </div>
+
+  <header>
+      <div class="container">
+          <div class="row">
+              <div class="header__top">
+                  <div class="col-md-6 header__top-brand">
+                      <h1><span class="bold">Vaishnavi Khadatakr</span></h1>
+                      <hr>
+                  </div>
+                  <nav class="col-md-6 header__top-nav hidden-md-down">
+                      <ul>
+                          <li><a class="scroll" href="#about">About</a></li>
+                          <li><a class="scroll" href="#skills">Skills</a></li>
+                          <li><a class="scroll" href="#portfolio">Portfolio</a></li>
+                          <li><a class="scroll" href="#contact">Contact</a></li>
+                      </ul>
+                  </nav>
+                  <nav class="col-md-6 header__top--responsive hidden-lg-up">
+                      <ul>
+                          <li><a class="menu-bars" href="#"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+                      </ul>
+                  </nav>
+              </div>
+          </div>
+
+          <div class="header__content">
+              <p class="bold">Hello !</p>
+              <p>I'm a <span class="bold">Full Stack Developer</span></p>
+              <a class="btn scroll" href="#portfolio">See My Work</a>
+          </div>
+
+          <div class="header__arrow">
+              <a class="scroll" href="#about"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+          </div>
+
+      </div>
+  </header>
+
+  <section id="about">
+      <div class="container">
+          <h2>Who I Am</h2>
+          <hr>
+          <img src="data:image/jpeg;base64,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" alt="Code with faraz">
+          <p class="lead">Full Stack Developer</p>
+          <p>I'm <span class="bold">Vaishnavi</span> Khadatkar, a <strong>Full Stack Developer</strong> from India.</p>
+          <p>I <strong>Design</strong> and <strong>Develop</strong> modern and responsive website.</p>
+          <p>Aside from development, I like learning languages and stay ahead of the latest trends in web development and improving my skills.</p>
+      </div>
+  </section>
+
+  <section id="skills">
+      <div class="container">
+          <h2>My Skills</h2>
+          <hr>
+          <div class="row">
+              <div class="skill col-12 col-lg-6">
+                  <div class="skills__percent">95%</div>
+                  <div class="progress-container">
+                      <strong>HTML / CSS</strong>
+                      <div class="progress">
+                          <div class="progress-bar" style="width: 95%"></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="skill col-12 col-lg-6">
+                  <div class="skills__percent">80%</div>
+                  <div class="progress-container">
+                      <strong>JavaScript</strong>
+                      <div class="progress">
+                          <div class="progress-bar" style="width: 80%"></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="skill col-12 col-lg-6">
+                  <div class="skills__percent">90%</div>
+                  <div class="progress-container">
+                      <strong>ReactJS</strong>
+                      <div class="progress">
+                          <div class="progress-bar" style="width: 70%"></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="skill col-12 col-lg-6">
+                  <div class="skills__percent">85%</div>
+                  <div class="progress-container">
+                      <strong>MongoDB</strong>
+                      <div class="progress">
+                          <div class="progress-bar" style="width: 70%"></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section id="portfolio">
+      <h2>Portfolio</h2>
+      <hr>
+      <div class="container">
+          <div class="portfolio__projects">
+              <div class="row">
+                  <div class="col-lg-4 col-md-6">
+                      <figure>
+                          <figcaption>
+                              <h3>Website</h3>
+                              <p>Using Full Stack Development</p>
+                              <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                          </figcaption>
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAAZNQ9aUywtWvgUhojzzdkl93IKeT4qCmhw&s">
+                      </figure>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                      <figure>
+                          <figcaption>
+                              <h3>Social Media Icon</h3>
+                              <p>Using Front End Development</p>
+                              <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                          </figcaption>
+                          <img src="https://www.vandelaydesign.com/wp-content/uploads/Screen-Shot-2020-10-28-at-8.32.31-PM-447x450.jpg">
+                      </figure>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                      <figure>
+                          <figcaption>
+                              <h3>Mini Calculator</h3>
+                              <p>Using Front End Development</p>
+                              <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                          </figcaption>
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm5eLIscewfADXp61Pw9DoD-rvanwCvw_CIg&s">
+                      </figure>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section id="contact">
+      <div class="container">
+          <p class="lead">Do you like what you see ?</p>
+          <p>Need a <span class="text-animate">Full Stack Developer ?</span></p>
+          <a class="btn" href="mailto:khadatkarvaishnavi11@gmail.com">Contact Me</a>
+
+          <div class="contact__social">
+              <a href="https://github.com/vaishnavi-khadatkar" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+          </div>
+      </div>
+  </section>
+
+  <section id="footer">
+      <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by Vaishnavi Khadatkar</a> <i class="fa fa-copyright" aria-hidden="true"></i>2024</p>
+  </section>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://unpkg.com/scrollreveal/dist/scrollreveal.min.js'></script>
+    <script src="script.js"></script>
+  </body>
+</html>
